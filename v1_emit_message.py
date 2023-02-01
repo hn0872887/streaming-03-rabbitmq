@@ -8,7 +8,7 @@
 
 # add imports at the beginning of the file
 import pika
-
+message = " Hello World the 2nd time"
 # create a blocking connection to the RabbitMQ server
 conn = pika.BlockingConnection(pika.ConnectionParameters("LOCALHOST"))
 # use the connection to create a communication channel
@@ -18,6 +18,6 @@ ch.queue_declare(queue="hello")
 # use the channel to publish a message to the queue
 ch.basic_publish(exchange="", routing_key="hello", body="Hello World!")
 # print a message to the console for the user
-print(" [x] Sent 2 message 'Hello World!'")
+print(f" [x] Sent {message}")
 # close the connection to the server
 conn.close()
