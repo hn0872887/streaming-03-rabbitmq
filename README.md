@@ -18,24 +18,23 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 1. Read the [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
 1. Read the code and comments in this repo.
 
-## Execute about,py
-
-1. Run about.py.
-1. Read about.txt. 
-1. Verfiy you have exactly one active, one None env.
+## Execute about,py 
+1. Run about.py. Done
+1. Read about.txt. Done
+1. Verfiy you have exactly one active, one None env. Yes
 
 ## Version 1 - Execute the Producer/Sender
 
-1. Read v1_emit_message.py (and the tutorial)
-1. Run the file. 
+1. Read v1_emit_message.py (and the tutorial) Done
+1. Run the file. Done
 
 You'll need to fix an error in the program to get it to run.
 Once it runs and finishes, we can reuse the terminal.
 
 ## Version 1 - Execute the Consumer/Listener
 
-1. Read v1_listen_for_messages.py (and the tutorial)
-1. Run the file.
+1. Read v1_listen_for_messages.py (and the tutorial) done
+1. Run the file. Done
 
 You'll need to fix an error in the program to get it to run.
 Once it runs successfully, will it terminate on its own? How do you know? 
@@ -43,12 +42,12 @@ As long as the process is running, we cannot use this terminal for other command
 
 ## Version 1 - Open a New Terminal / Emit More Messages
 
-1. Open a new terminal window.
-1. Use this new window to emit more messages
-1. In v1_emit_message.py, modify the message. 
-1. Execute the script. 
-1. Watch what happens in the listening window.
-1. Do this several times to emit at least 3 different messages.
+1. Open a new terminal window. done
+1. Use this new window to emit more messages. Done
+1. In v1_emit_message.py, modify the message.  Done
+1. Execute the script. Done
+1. Watch what happens in the listening window. Messages in listening window being duplicated from VS code and terminal when running v1_emit_message
+1. Do this several times to emit at least 3 different messages. Done
 
 ## Version 1: Don't Repeat Yourself (DRY)
 
